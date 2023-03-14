@@ -1,0 +1,54 @@
+body .header--tittle {
+  width: 2em;
+  height: 2em;
+  background-color: aquamarine;
+  margin-top: 2em;
+}
+body .header--menu {
+  width: 2em;
+  height: 2em;
+  background-color: aquamarine;
+  margin-top: 2em;
+}
+body .main--frontPage {
+  width: 2em;
+  height: 2em;
+  background-color: aquamarine;
+  margin-top: 2em;
+}
+body .main--features {
+  width: 2em;
+  height: 2em;
+  background-color: aquamarine;
+  margin-top: 2em;
+}
+body .main--examples {
+  width: 2em;
+  height: 2em;
+  background-color: aquamarine;
+  margin-top: 2em;
+}
+body .main--gallery {
+  width: 2em;
+  height: 2em;
+  background-color: aquamarine;
+  margin-top: 2em;
+}
+body .main--contact {
+  width: 2em;
+  height: 2em;
+  background-color: aquamarine;
+  margin-top: 2em;
+}
+body .footer--socialMedia {
+  width: 2em;
+  height: 2em;
+  background-color: aquamarine;
+  margin-top: 2em;
+}
+body .footer--moreInformation {
+  width: 2em;
+  height: 2em;
+  background-color: rgb(180, 199, 193);
+  margin-top: 2em;
+}/*# sourceMappingURL=style.css.map */
