@@ -286,4 +286,64 @@ body .footer--socialMedia {
 body .footer--socialMedia img {
   width: 2em;
   margin-left: 1em;
+}
+
+/* 
+@media (max-width:1087px) {
+    body{
+      background-color: aqua;
+    }
+
+    .main--features{
+
+    }
+    .main--features--tittleFeatures{
+
+
+    }
+    .main--features--featuresElements{
+
+
+    }
+    .main--examples{
+
+
+    }
+    .main--examples--tittle{
+
+
+    }
+    .main--examples--dishes{
+
+
+    }
+
+  } 
+
+  */
+@media (max-width: 1162px) and (min-width: 645px) {
+  body {
+    font-size: smaller !important;
+  }
+}
+@media (max-width: 645px) {
+  body {
+    font-size: x-small !important;
+  }
+  body h1 {
+    font-size: 2em !important;
+  }
+  body h2 {
+    font-size: large !important;
+  }
+  body h3 {
+    font-size: medium !important;
+  }
+  body .main--contact--container {
+    display: flex;
+    flex-direction: column;
+  }
+  body .main--contact--container--map iframe {
+    height: 40%;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -445,3 +445,85 @@ body{
 
     }
 }
+
+/* 
+@media (max-width:1087px) {
+    body{
+      background-color: aqua;
+    }
+    
+    .main--features{
+  
+    }
+    .main--features--tittleFeatures{
+      
+  
+    }
+    .main--features--featuresElements{
+      
+  
+    }
+    .main--examples{
+      
+  
+    }
+    .main--examples--tittle{
+      
+  
+    }
+    .main--examples--dishes{
+      
+  
+    }
+    
+  } 
+  
+  */
+
+  $breakpoint: 1162px;
+  $breakpoint2:645px;
+
+@media (max-width: $breakpoint) and (min-width:$breakpoint2) {
+  // estilos para dispositivos con una anchura de pantalla mínima de $breakpoint
+  body{
+    font-size: smaller !important;
+  }
+}
+
+@media (max-width: $breakpoint2)  {
+    // estilos para dispositivos con una anchura de pantalla mínima de $breakpoint
+    body{
+      font-size: x-small !important;
+      & h1{
+        font-size: 2em !important;
+      }
+      & h2{
+        font-size: large !important;
+      }
+      & h3{
+        font-size: medium !important;
+      }
+      .main {
+        &--contact{
+            &--container{
+                display: flex;
+                flex-direction: column;
+
+                &--form{
+
+                }
+                &--map{
+                    & iframe {
+                        height: 40%;
+                    }
+
+
+                }
+
+            }
+
+        }
+      }
+
+    }
+  }
